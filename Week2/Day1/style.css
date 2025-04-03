@@ -1,0 +1,49 @@
+*{
+    font-family: cursive;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+
+}
+.welcoming{
+    font-size: 20px;
+    /* margin-top:20px;
+    margin-bottom:20px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    margin: 50px 10px;
+    border: 2px solid;
+}
+p{
+    font-size: 1.25em; 
+    /* 150% */
+}
+
+h1{
+    font-size: 50px;
+}
+/* ctrl+: */
+.resources{
+    /* background-color: aqua; */
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    background-color: aliceblue;
+    outline: 1px solid;
+    border: 10px solid rgb(209, 209, 57);
+    margin: 60px auto;
+    padding: 50px;
+    /* width :400px 
+    outline: width400px 2px will be part of the width
+    border: will be adding 10x2+400 */
+    /* 400: paddingx2+borderx2+content */
+}
+#second-h1{
+    font-size: 35px;
+    color: skyblue;
+    /* background-color: blueviolet; */
+}
+a{
+    text-decoration: none;
+}
