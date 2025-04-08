@@ -1,0 +1,140 @@
+/* Reset + Bod=> Base Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+body{
+    padding: 30px;
+    background-color:#f4f4f4 ;
+    color: #333333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Section: Gallery */
+
+
+.gallery-section{
+    margin-bottom: 40px;
+}
+h2{
+    margin-bottom:15px ;
+    font-size: 25px;
+}
+.gallery{
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.gallery img{
+    width:150px;
+    height: 150px;
+    /* margin: 5px; */
+    display: block;
+    /* display:inline; */
+    border: 2px solid #a69e9e;
+    /* to add shadow */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.11);
+}
+
+/* -------Letter Section ----------- */
+
+
+.letter-section{
+    margin:40px auto;
+    border: 2px  solid;
+    width: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    /* circle => square-> radius 50% */
+}
+.letter p{
+    font-size: 16px;
+}
+
+
+/* -----------Navbar Section---------------- */
+
+.nav-section{
+    margin: 40px auto;
+    /* position: relative; */
+}
+.nav-list{
+    padding: 10px;
+    background-color:#dddddd ;
+    display: flex;
+    justify-content: flex-end;
+    /* gap: 20px; */
+    align-items: center;
+    list-style: none;
+}
+.nav-list li{
+    margin: 0px 20px;
+    /* display:inline-block; */
+}
+
+.nav-list li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #333333;
+}
+
+.nav-list li a:hover{
+    color:#5ad4d4;
+}
+
+
+/* -----------Product Card------- */
+
+
+.product-section{
+    margin-bottom: 40px;
+}
+.product-card{
+    border: 2px solid #a69e9e;
+    /* to add shadow */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.11);
+    width: 700px;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 120px;
+    top: 25px;
+
+}
+.product-card img{
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+}
+.product-info button{
+    padding: 8px 16px;
+    background-color: #292323;
+    color: white;
+    border: none;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+/* ------Arrow Fixed------- */
+
+
+.fixed-arrow{
+    background-color: #333333;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #f4f4f4;
+    text-align: center;
+    /* vertical-align:; */
+    padding: 2px;
+    font-size: 25px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
