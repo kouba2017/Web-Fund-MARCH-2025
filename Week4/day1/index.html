@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <h1  class="1"    class="2">Hello Query Selector</h1>
+
+    <div class="secondH1">
+        <h1>Hello again</h1>
+        <p class="p-tag" >skdfhksdfhjksdfhdsjf</p>
+    </div>
+
+    <div class="secondH1">
+        <h1>Hello again</h1>
+        <p class="p-tag" >skdfhksdfhjksdfhdsjf</p>
+    </div>
+
+    <img src="./assets/img2.jpg" alt="bird image" id="pet-img" width="200" height="200" />
+    <br>
+    <button  onclick="switchImg()" >Switch</button>
+    <br>
+    <label>I would like to eat</label>
+    <select onchange="chooseLunch(this)" >
+        <option>Choose One</option>
+        <option>Tacos</option>
+        <option>Pasta</option>
+        <option>Sushi</option>
+    </select>
+
+    <div class="card">
+        <p>Hello my name is:</p>
+        <h3 id="name-tag">Example</h3>
+    </div>
+
+    <input  oninput="setName(this)" type="text" id="name-input" value="Example" />
+    <!-- <button onclick="setName()">Switch</button> -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
