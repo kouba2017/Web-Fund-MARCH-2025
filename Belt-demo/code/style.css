@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header{
+    width: 100%;
+    background-color: darkgray;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 3px 10px;
+}
+.left-header{
+    /* width: 40%; */
+    width: 350px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right-header button{
+    padding:5px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.cat-logo{
+    width: 35px;
+}
+
+/* Nav */
+nav{
+    background-color: aquamarine;
+    width: 100%;
+    padding: 0 100px;
+    padding-top: 50px;
+    
+}
+nav div{
+    background-color: beige;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+#join-btn{
+    padding:5px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: red;
+}
+/* MAIN */
+
+.arrow{
+    width: 30px;
+}
+
+.icons{
+    width: 25px;
+}
+.project{
+    width: 350px;
+    /* width: 90%; */
+}
